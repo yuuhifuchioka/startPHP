@@ -1,7 +1,7 @@
 <?php
 
 require('../vendor/autoload.php');
-
+$imagick = new Imagick();
 $app = new Silex\Application();
 $app['debug'] = true;
 
